@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5h0053/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5h0053/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 天皇至道太清玉冊
+  date: '2015-08-29 03:05:30.100736'
+  source:
+    repository: kanripo
+    path: KR5h0053
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5h0053_000-ZTDZ.yaml, hash: 'sha256:64dba2d0170b966cd02c9b824a86da6fe114d9cfb718c559b676dc1ecbf5c618'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5h0053_000-ZTDZ.markers.yaml, hash: 'sha256:69aaede6d9aa79dbbdf832092c6ecd30ef274f8df5148f3dc012cf266e5a2fb2'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5h0053_SJB_000-360356a
+    span:
+    - body
+    - 0
+    - 64599
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:5152d917b89d59f06f96bcc4ff3d7c79917714f1c81894181916757dc000e3d0
